@@ -2,7 +2,7 @@
 <?php
 
 require_once __DIR__ . "/../vendor/autoload.php";
-require_once __DIR__ . "/vendor/autoload.php";
+require_once "SimpleIntegrityCheck.php";
 
 $simple = new SimpleIntegrityCheck();
 $investigation = $simple->investigate();

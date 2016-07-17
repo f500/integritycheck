@@ -4,7 +4,7 @@ namespace F500\Integrity\Concrete;
 
 use F500\Integrity\InvestigationError;
 
-final class JsonEncodingInvestigationError implements InvestigationResult
+final class JsonEncodingInvestigationError implements InvestigationError
 {
     /**
      * @var array

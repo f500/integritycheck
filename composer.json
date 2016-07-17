@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "F500\\Integrity\\": "src/Integrity"
+            "F500\\Integrity\\": "src/"
         }
     },
     "require": {},

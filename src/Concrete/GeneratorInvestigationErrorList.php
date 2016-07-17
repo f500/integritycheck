@@ -2,8 +2,6 @@
 
 namespace F500\Integrity\Concrete;
 
-use Iterator;
-
 final class GeneratorInvestigationErrorList
 {
     /**
@@ -12,11 +10,11 @@ final class GeneratorInvestigationErrorList
     private $result;
 
     /**
-     * @param iterator $result
+     * @param array $investigationResult
      */
-    public function __construct(Iterator $result)
+    public function __construct(array $investigationResult)
     {
-        $this->result = $result;
+        $this->result = $investigationResult;
     }
 
     /**
