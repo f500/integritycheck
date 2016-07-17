@@ -4,7 +4,7 @@ namespace F500\Integrity\Console;
 
 use F500\Integrity\IntegrityCheck;
 use F500\Integrity\Resolution;
-use Symfony\Component\Console\Command\ContainerAwareCommand;
+use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
