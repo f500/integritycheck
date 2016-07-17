@@ -1,6 +1,6 @@
 <?php
 
-namespace FMS\Console\Command\Integrity;
+namespace F500\Integrity\Console;
 
 use F500\Integrity\IntegrityCheck;
 use F500\Integrity\Resolution;
@@ -10,8 +10,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\DependencyInjection\Container;
 
-
-class SymfonyConsoleBase extends ContainerAwareCommand
+abstract class SymfonyConsoleBase extends ContainerAwareCommand
 {
     static $message     = 'The base command cannot be run directly';
     static $resolved    = 'This command cannot resolve';
