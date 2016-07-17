@@ -1,0 +1,20 @@
+{
+    "name": "f500/integritycheck",
+    "description": "Provides a interfaces for building integrity checks for your app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramon de la Fuente",
+            "email": "ramon@future500.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "F500\\Integrity\\": "src/Integrity"
+        }
+    },
+    "require": {},
+    "suggest": {
+        "symfony/console": "Create a console command to run integrity checks with uniform output"
+    }
+}
